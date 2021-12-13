@@ -26,9 +26,6 @@ done
 
 set -- "${POSITIONAL[@]}" # restore positional parameters
 
-echo "FILE  = ${FILENAME}"
-echo "TEXT  = ${TEXT}"
-
 LOGOFILE=logos/timeout.png
 LOGOGEO=-50-500
 LOGOSCALE=50%
