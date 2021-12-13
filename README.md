@@ -2,8 +2,9 @@
 
 This is just some basic imagemagick stuff to generate collection posters.
 
-It's assuming you have ImageMagick installed.
-It's assuming you have the Source Sans Pro Bold font installed and available to ImageMagick.
+It's assuming you have [ImageMagick](https://imagemagick.org/script/download.php) installed.
+
+It's assuming you have the [Source Sans Pro Bold](https://fonts.google.com/specimen/Source+Sans+Pro) font installed and [available to ImageMagick](https://amhajja.medium.com/adding-a-new-font-to-imagemagick-31f7d2401b7e).
 
 The font is specified in `poster-gen.sh` if you want to change it.
 
