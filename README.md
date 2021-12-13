@@ -2,14 +2,17 @@
 
 This is just some basic imagemagick stuff to generate collection posters.
 
-It's assuming you have ImageMagick installed.
-It's assuming you have the Source Sans Pro Bold font installed and available to ImageMagick.
+It's assuming you have [ImageMagick](https://imagemagick.org/script/download.php) installed.
+
+It's assuming you have the [Source Sans Pro Bold](https://fonts.google.com/specimen/Source+Sans+Pro) font installed and [available to ImageMagick](https://amhajja.medium.com/adding-a-new-font-to-imagemagick-31f7d2401b7e).
 
 The font is specified in `poster-gen.sh` if you want to change it.
 
 There are scripts to generate a variety of "types":
 
 ![image](https://user-images.githubusercontent.com/3865541/145758329-2ac461e1-53db-4be9-a526-2245144f5ca4.png)
+
+It's this set because I've created Plex collections from lists published on these sites.  If I find a good movie list on some other site, I'll be adding it here.
 
 ```
 bloody.sh
