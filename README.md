@@ -12,6 +12,8 @@ There are scripts to generate a variety of "types":
 
 ![image](https://user-images.githubusercontent.com/3865541/145758329-2ac461e1-53db-4be9-a526-2245144f5ca4.png)
 
+It's this set because I've created Plex collections from lists published on these sites.  If I find a good movie list on some other site, I'll be adding it here.
+
 ```
 bloody.sh
 calendar.sh
