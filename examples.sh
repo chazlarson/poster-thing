@@ -3,6 +3,10 @@
 # SCRIPT TO DO STUFF
 
 ./bloody.sh -f "bloody-time-travel" -t "10 Mind-bending Time-travel Horror Movies"
+
+./esquire.sh -f "esquire-25-best-2019" -t "25 Best of 2019"
+./esquire.sh -f "esquire-60-scariest" -t "60 Scariest Movies of All Time"
+
 ./ew.sh -f "ew-best-horror-2021-so-far" -t "Best Horror of 2021 So Far"
 
 ./looper.sh -f "looper-best-horror-2021" -t "Best Horror of 2021"
@@ -16,6 +20,7 @@
 ./looper.sh -f "looper-best-horror-endings" -t "Best Horror Movie Endings"
 ./looper.sh -f "looper-best-movies-2020" -t "Best Movies of 2020"
 ./looper.sh -f "looper-best-scifi-2020" -t "Best SciFi Movies of 2020"
+./looper.sh -f "looper-best-scifi-2021" -t "Best SciFi Movies of 2021"
 ./looper.sh -f "looper-greatest-alltime-horror" -t "Greatest Horror Of All Time"
 ./looper.sh -f "looper-hidden-horror-gems-netflix-must-watch-once" -t "Hidden Horror Gems on Netflix You Need To Watch at Least Once"
 ./looper.sh -f "looper-hidden-horror-gems-netflix" -t "Hidden Horror Gems on Netflix"
@@ -25,6 +30,8 @@
 
 ./timeout.sh -f "timeout-100-best-comedy" -t "100 Best Comedy Movies"
 ./timeout.sh -f "timeout-100-best-horror" -t "100 Best Horror Movies"
+
+./torrentfreak.sh -f "tf-top-10" -t "Top Ten Pirated Movies this Week"
 
 ./watchmojo.sh -f "watchmojo-top-20-horror-better" -t "Top 20 Horror Movies That Were Better Than We Expected"
 ./watchmojo.sh -f "watchmojo-top-20-scariest-havent-seen" -t "Top 20 Scariest Horror Movies You Probably Haven't Seen"
