@@ -4,6 +4,8 @@
 
 ./bloody.sh -f "bloody-time-travel" -t "10 Mind-bending Time-travel Horror Movies"
 
+./dailydot.sh -f  "dailydot-20-best-horror" -t "20 Best Horror Films on Netflix"
+
 ./esquire.sh -f "esquire-25-best-2019" -t "25 Best of 2019"
 ./esquire.sh -f "esquire-60-scariest" -t "60 Scariest Movies of All Time"
 
