@@ -17,6 +17,7 @@ It's this set because I've created Plex collections from lists published on thes
 ```
 bloody.sh
 calendar.sh
+complex.sh
 dailydot.sh
 esquire.sh
 ew.sh
@@ -26,6 +27,7 @@ looper.sh
 rotten.sh
 thrillist.sh
 timeout.sh
+total-film.sh
 vulture.sh
 watchmojo.sh
 whatculture.sh
@@ -49,6 +51,16 @@ Call these like this:
 The text block will be scaled so that it fits on the poster.
 
 There are a number of examples in `examples.sh`; the output from those examples is in `output`.
+
+--
+
+Another style added:
+
+![image](https://user-images.githubusercontent.com/3865541/148100732-3c7f1ded-f3a9-4c99-8d2e-09ca1ccfec4b.png)
+
+There are enough of these that I didn't add individual shell scripts for each.  They are all listed in `everglade-networks.sh`, which needs no parameters.
+
+On these, the logo is scaled to fit in a box of a fixed size, so you don't need to specify the scaling.  I may redo the other style to do the same thing.
 
 --
 
