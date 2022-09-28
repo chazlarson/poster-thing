@@ -66,8 +66,8 @@ if [ ! -d $DIR ]; then
 fi
 
 convert -size 1000x1500 -define png:color-type=2 canvas:$BGCOLOR back.png && \
-convert back.png -size 3000x3000 radial-gradient:black-white -gravity west -geometry -2600-400 -contrast-stretch 0%x0% -compose copy_opacity -composite -fill none -stroke $STROKECOLOR -strokewidth 20 -draw "roundrectangle 20,20 980,1480,24,24" temp.png && \
-convert $LOGOFILE'[600x600]' - | composite -gravity center - temp.png "output/$FILENAME.png"
+convert back.png -size 4000x4000 radial-gradient:black-white -gravity west -geometry -3200-1000 -contrast-stretch 0%x0% -compose copy_opacity -composite -fill none -stroke $STROKECOLOR -strokewidth 20 -draw "roundrectangle 27,27 973,1473 12,12" temp.png && \
+convert $LOGOFILE'[600x600]' - | composite -gravity center - temp.png "$DIR/$FILENAME.png"
 rm -f back.png
 rm -f temp.png
 
