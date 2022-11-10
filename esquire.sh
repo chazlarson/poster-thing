@@ -32,6 +32,8 @@ LOGOSCALE=100%
 BGCOLOR="#D10101"
 BOTTOMCOLOR="grey"
 
-./poster-gen.sh -f ${FILENAME} -t "${TEXT}" -l ${LOGOFILE} -g ${LOGOGEO} -s ${LOGOSCALE} -c ${BGCOLOR} -b ${BOTTOMCOLOR}
+if [ ! -f "output/$FILENAME.png" ]; then
+  ./apostle-gen.sh -f ${FILENAME} -t "${TEXT}" -l ${LOGOFILE} -g ${LOGOGEO} -s ${LOGOSCALE} -c ${BGCOLOR} -b ${BOTTOMCOLOR}
 
-open "output/$FILENAME.png"
+  open "output/$FILENAME.png"
+fi
