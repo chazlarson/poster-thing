@@ -31,6 +31,8 @@ LOGOSCALE=50%
 BGCOLOR="black"
 STROKECOLOR="white"
 
-./album-gen.sh -f ${FILENAME} -l ${LOGOFILE} -s ${LOGOSCALE} -c ${BGCOLOR} -d ${STROKECOLOR}
+if [ ! -f "output/$FILENAME.png" ]; then
+  ./album-gen.sh -f ${FILENAME} -l ${LOGOFILE} -s ${LOGOSCALE} -c ${BGCOLOR} -d ${STROKECOLOR}
 
-open "output/$FILENAME.png"
+  open "output/$FILENAME.png"
+fi

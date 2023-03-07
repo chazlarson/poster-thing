@@ -26,14 +26,14 @@ done
 
 set -- "${POSITIONAL[@]}" # restore positional parameters
 
-ICONFILE=icons/calendar1600.png
+ICONFILE=logos/calendar1600.png
 ICONGEO=-70-450
 ICONSCALE=30%
 BGCOLOR="#ffffff"
 BOTTOMCOLOR="#FF3300"
 
 if [ ! -f "output/$FILENAME.png" ]; then
-  ./apostle-gen.sh -f ${FILENAME} -t "${TEXT}" -l ${LOGOFILE} -g ${LOGOGEO} -s ${LOGOSCALE} -c ${BGCOLOR} -b ${BOTTOMCOLOR}
+  ./apostle-gen.sh -f ${FILENAME} -t "${TEXT}" -l ${ICONFILE} -g ${ICONGEO} -s ${ICONSCALE} -c ${BGCOLOR} -b ${BOTTOMCOLOR}
 
   open "output/$FILENAME.png"
 fi

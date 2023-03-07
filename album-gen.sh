@@ -59,9 +59,7 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 
 DIR=output
 
-if [ -d $DIR ]; then
-   echo "$DIR exists."
-else
+if [ ! -d $DIR ]; then
    mkdir $DIR
 fi
 

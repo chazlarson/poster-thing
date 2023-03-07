@@ -11,6 +11,22 @@
 
 ./ew.sh -f "ew-best-horror-2021-so-far" -t "Best Horror of 2021 So Far"
 
+./looper.sh -f "looper-best-2022-so-far" -t "Best of 2022 So Far"
+./looper.sh -f "looper-worst-2016" -t "Worst of 2016"
+./looper.sh -f "looper-worst-2017" -t "Worst of 2017"
+./looper.sh -f "looper-worst-2018" -t "Worst of 2018"
+./looper.sh -f "looper-worst-2019" -t "Worst of 2019"
+./looper.sh -f "looper-worst-2020" -t "Worst of 2020"
+./looper.sh -f "looper-worst-2021" -t "Worst of 2021"
+./looper.sh -f "looper-worst-2022" -t "Worst of 2022"
+./looper.sh -f "looper-best-2016" -t "Best of 2016"
+./looper.sh -f "looper-best-2017" -t "Best of 2017"
+./looper.sh -f "looper-best-2018" -t "Best of 2018"
+./looper.sh -f "looper-best-2019" -t "Best of 2019"
+./looper.sh -f "looper-best-2020" -t "Best of 2020"
+./looper.sh -f "looper-best-2021" -t "Best of 2021"
+./looper.sh -f "looper-best-2022" -t "Best of 2022"
+./looper.sh -f "looper-best-horror-2022" -t "Best Horror of 2022"
 ./looper.sh -f "looper-best-horror-2021" -t "Best Horror of 2021"
 ./looper.sh -f "looper-best-horror-2028" -t "Best Horror of 2020"
 ./looper.sh -f "looper-best-horror-2019" -t "Best Horror of 2019"
@@ -23,6 +39,7 @@
 ./looper.sh -f "looper-best-movies-2020" -t "Best Movies of 2020"
 ./looper.sh -f "looper-best-scifi-2020" -t "Best SciFi Movies of 2020"
 ./looper.sh -f "looper-best-scifi-2021" -t "Best SciFi Movies of 2021"
+./looper.sh -f "looper-best-scifi-2022" -t "Best SciFi Movies of 2022"
 ./looper.sh -f "looper-greatest-alltime-horror" -t "Greatest Horror Of All Time"
 ./looper.sh -f "looper-hidden-horror-gems-netflix-must-watch-once" -t "Hidden Horror Gems on Netflix You Need To Watch at Least Once"
 ./looper.sh -f "looper-hidden-horror-gems-netflix" -t "Hidden Horror Gems on Netflix"
@@ -39,7 +56,8 @@
 ./watchmojo.sh -f "watchmojo-top-20-scariest-havent-seen" -t "Top 20 Scariest Horror Movies You Probably Haven't Seen"
 
 ./whatculture.sh -f "whatculture-ten-awesome-recent" -t "Ten Awesome Recent Movies You Probably Missed"
-
+./whatculture.sh -f "whatculture-too-scary-to-finish" -t "Horror Movies too Scary to Finish"
+ 
 ./letterboxd.sh -f "letterboxd-anxiety" -t "Anxiety-Inducing Cinema"
 ./letterboxd.sh -f "letterboxd-melancholy" -t "Melancholy as a Breathtaking Aesthetic Emotion"
 
@@ -54,6 +72,7 @@
 ./calendar.sh -f "last-1-week" -t "Last Week"
 ./calendar.sh -f "last-2-week" -t "Last 2 Weeks"
 ./calendar.sh -f "last-4-week" -t "Last 4 Weeks"
+./calendar.sh -f from-the-future -t "From the Future"
 
 ./rotten.sh -f "calendar2021" -t "Best of 2021"
 ./rotten.sh -f "calendar2020" -t "Best of 2020"
@@ -63,6 +82,8 @@
 ./rotten.sh -f "calendar2016" -t "Best of 2016"
 ./rotten.sh -f "calendar2015" -t "Best of 2015"
 ./rotten.sh -f "calendar2014" -t "Best of 2014"
+./rotten.sh -f "rt-top-100" -t "Top 100 of All Time"
+./rotten.sh -f "rt-best-horror" -t "Best All-Time Horror"
 
 ./album-warner.sh -f "warner"
 
